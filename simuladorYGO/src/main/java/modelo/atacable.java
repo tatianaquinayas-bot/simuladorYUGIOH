@@ -10,4 +10,6 @@ package modelo;
  */
 public interface atacable {
     
+    void recibirDanio(int danio);
+    
 }

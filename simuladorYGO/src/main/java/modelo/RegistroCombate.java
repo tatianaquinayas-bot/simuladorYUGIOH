@@ -10,4 +10,13 @@ package modelo;
  */
 public class RegistroCombate {
     
-}
+        public String atacante;
+        public String defensor;
+        public int danio;
+        public String resultado;
+        public String tipoAtaque;
+        
+        public String generarReporte(){
+        
+            return "Tipo de Ataque: " + tipoAtaque + "\nAtacante: " + atacante
+                    + "\nDefensor: " + defensor + "\nDaño: " + danio +"\nResultado: " + resultado;}}

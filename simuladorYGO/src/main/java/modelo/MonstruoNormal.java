@@ -8,6 +8,16 @@ package modelo;
  *
  * @author 57323
  */
-public class MonstruoNormal {
+public class MonstruoNormal extends CartaMonstruo {
     
+    public MonstruoNormal(String nombre, int ataque, int defensa, String posicion){
+    
+        configurarDatos(nombre, ataque, defensa, posicion);
+    
+    }
+    
+    @Override
+    public int calcularPoder(){
+    return ataque;
+    }
 }
