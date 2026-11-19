@@ -11,6 +11,6 @@ package com.mycompany.simuladorygo;
 public class SimuladorYGO {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Worl!");
     }
 }
